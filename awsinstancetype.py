@@ -14,7 +14,8 @@ class AWSInstanceType:
         if instancetype != None:
             self.instanceType = self.getInstanceDesc(instancetype)
 
-    def downloadInstanceTypes(self):
+    @staticmethod
+    def downloadInstanceTypes():
         totalRecords = {}
         request = requests.get('https://aws.amazon.com/ec2/instance-types/')
         soup = BeautifulSoup(request.content, 'html.parser')

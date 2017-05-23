@@ -55,3 +55,7 @@ The following methods are available:
     def getInstanceEnhancedNetworking(self):
 
 ```
+
+Call downloadInstanceTypes to download or update instance types from AWS:
+
+`AWSInstanceType.downloadInstanceTypes()`
