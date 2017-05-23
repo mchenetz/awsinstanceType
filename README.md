@@ -1,7 +1,7 @@
 # AWSInstanceType
 ## API to grab Instance Information
 ---
-Description: This API will allow you to pull information on an instancetype by name.
+Description: This API will allow you to pull information on an instancetype by name. This script scrapes AWS EC2 Instancetypes from https://aws.amazon.com/ec2/instance-types/
 
 Example:
 
